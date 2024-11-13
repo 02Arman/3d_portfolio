@@ -1,3 +1,5 @@
+
+
 import {
     mobile,
     backend,
@@ -6,6 +8,7 @@ import {
     javascript,
     typescript,
     html,
+    python,
     css,
     reactjs,
     redux,
@@ -15,11 +18,16 @@ import {
     git,
     figma,
     docker,
+    java,
     meta,
     starbucks,
     tesla,
     shopify,
     carrent,
+    shop,
+    bovi,
+    wordpress,
+    thinkmind,
     jobit,
     tripguide,
     threejs,
@@ -80,21 +88,18 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Node JS",
+      icon: nodejs,
     },
     {
       name: "Three JS",
@@ -109,62 +114,61 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Butikkmedarbeider",
+      company_name: "Meditariansk eksotiske matvarer",
+      icon: shop,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Mars 2019 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Kassearbeid og kundebehandling.",
+        "Lagerarbeid.",
+        "Vareutlevering.",
+        "Bidro til å utvikle målene til virksomheten, og jobbet for å oppnå dem.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Flåtemedarbeider",
+      company_name: "BOVI Mobilitet",
+      icon: bovi,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Juli 2023 - Sep 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Relokalisering og innsamling av el sparkesykler.",
+        "Montere og reparere el sparkesykler.",
+        
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Webutvikling",
+      company_name: "Herøya",
+      icon: wordpress,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2021 - Des 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Jobbet sammen i gruppe på et skoleprosjekt.",
+        "Jobbet med å utvikle ny nettside for en idrettsforening.",
+        "Bidro med å utvikle nettsiden ved bruk av HTML, CSS og JavaScript.",
+        "Lanserte nettsiden på WordPress, hvor jeg sto for design, innhold og tilpasninger for å skape en brukervennlig og responsiv opplevelse.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Python-utvikler",
+      company_name: "ThinkMind",
+      icon: thinkmind,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - Juni 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utviklet og implementerte en forskningsplattform ved bruk av Python og web-scraping for å hente inn og visualisere forskningssamarbeid mellom ulike forfattere.",
+        "Bygget funksjoner for å hente og organisere forskningsdata fra flere nettbaserte kilder for å støtte analyse og visualisering.",
+        "Samarbeidet med akademiske og tekniske interessenter for å sikre at plattformen tilfredsstilte krav til både forskning og brukervennlighet.",
+        "Utførte datarensing for å sikre nøyaktighet og relevans i de innhentede dataene, noe som muliggjorde pålitelige analyser og innsikter.",
       ],
     },
   ];
@@ -195,6 +199,7 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+  
   
   const projects = [
     {

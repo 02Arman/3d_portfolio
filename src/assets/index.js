@@ -17,6 +17,8 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -25,6 +27,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import shop from "./company/shop.png";
+import bovi from "./company/bovi.png";
+import wordpress from "./company/wordpress.png";
+import thinkmind from "./company/thinkmind.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -44,6 +50,8 @@ export {
   figma,
   git,
   html,
+  python,
+  java,
   javascript,
   mongodb,
   nodejs,
@@ -53,6 +61,10 @@ export {
   typescript,
   threejs,
   meta,
+  shop,
+  bovi,
+  wordpress,
+  thinkmind,
   shopify,
   starbucks,
   tesla,
